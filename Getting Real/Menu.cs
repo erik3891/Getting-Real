@@ -25,19 +25,20 @@ namespace Getting_Real
                             Ordre ordre = new Ordre();
                             ordre.ShowOrdre();
                             break;
-                        case "2":
-                            //ScheduleNewRound();
-                            break;
-                        case "3":
-                            //SaveMatch();
-                            break;
-                        case "4":
-                            //Creatacount();
-                            break;
+                        //case "2":
+                        //    ScheduleNewRound();
+                        //    break;
+                        //case "3":
+                        //    SaveMatch();
+                        //    break;
+                        //case "4":
+                        //    Creatacount();
+                        //    break;
                         default:
-                            Console.WriteLine("Ugyldigt valg.");
+                            Console.WriteLine("Ugyldigt valg tryk Enter.");
                             Console.ReadLine();
-                            break;
+                            Console.Clear();
+                        break;
                     }
                 } while (running);
             }
@@ -51,34 +52,14 @@ namespace Getting_Real
             Console.WriteLine("4. Opret STARK Konto");
             Console.WriteLine("");
             Console.WriteLine("0. Exit");
-            Console.Clear();
         }
 
-        //private void ShowOrdre()
-        //    {
-        //    Console.WriteLine("Opret Ordre");
-        //    Console.WriteLine("");
-        //    Console.Write("1. Medarbejder : ");
-        //    string Medarbejder = Console.ReadLine(); 
-        //    Console.Write("2. Kunde Navn : ");
-        //    string KundeNavn = Console.ReadLine();
-        //    Console.Write("3. Email : ");
-        //    string Email = Console.ReadLine(); 
-        //    Console.Write("4. Adresse : ");
-        //    string Adresse = Console.ReadLine();
-        //    Console.Write("5. Telefon : ");
-        //    string Telefon = Console.ReadLine();
-        //    Console.Write("6. Vare");
-        //    string 
-        //    Console.WriteLine("0. Exit");
-        //    Console.Clear();
-        //}
         private string GetUserChoice()
-            {
+        {
                 Console.WriteLine();
                 Console.Write("Indtast dit valg: ");
                 return Console.ReadLine();
-            }
+         }
 
      }
 }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using 
 
 namespace Getting_Real
 {
@@ -12,6 +11,7 @@ namespace Getting_Real
 
         public void ShowOrdre()
         {
+            Console.Clear();
             Console.WriteLine("Opret Ordre");
             Console.WriteLine("");
             Console.Write("1. Medarbejder : ");
@@ -22,12 +22,19 @@ namespace Getting_Real
 
             Console.Write("3. Email : ");
             string Email = Console.ReadLine();
+
             Console.Write("4. Adresse : ");
             string Adresse = Console.ReadLine();
+
             Console.Write("5. Telefon : ");
             string Telefon = Console.ReadLine();
-            Console.Write("6. Vare");
-            string Vare = Console.ReadLine();
+
+            Console.Write("6. Vare : ");
+            Vare vare = new Vare();
+            vare.ShowVare();
+
+            Console.ReadLine();
+
             Console.WriteLine("0. Exit");
             Console.Clear();
         }
