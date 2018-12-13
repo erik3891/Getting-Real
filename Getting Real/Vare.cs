@@ -10,7 +10,27 @@ namespace Getting_Real
     {
         public void ShowVare()
         {
-            Console.WriteLine("HEHEHE");
+            Vare vare = new Vare
+            vare = Console.ReadLine();
+            if (Vare.vare != null)
+            {
+               
+                
+                    Console.Write("Antal");
+                    Console.ReadLine();
+                    //Vare vare1 = new Vare();
+                    //vare1.ShowVare();
+                
+            }
+            else if (vare == null)
+            {
+                return;
+            }
+            else
+            {
+                return;
+            }
+
         }
     }
 }
