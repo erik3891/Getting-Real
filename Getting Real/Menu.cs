@@ -25,9 +25,10 @@ namespace Getting_Real
                             Ordre ordre = new Ordre();
                             ordre.ShowOrdre();
                             break;
-                        //case "2":
-                        //    ScheduleNewRound();
-                        //    break;
+                        case "2":
+                            Kunde kunder = new Kunde();
+                            kunder.Showkunde();
+                            break;         
                         //case "3":
                         //    SaveMatch();
                         //    break;
@@ -47,7 +48,7 @@ namespace Getting_Real
             Console.WriteLine("STARK INTERN ORDRE SYSTEM");
             Console.WriteLine();
             Console.WriteLine("1. Opret Ordre");
-            Console.WriteLine("2. Lager");
+            Console.WriteLine("2. Kunde Liste");
             Console.WriteLine("3. Medarbejder list");
             Console.WriteLine("4. Opret STARK Konto");
             Console.WriteLine("");
