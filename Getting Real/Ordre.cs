@@ -15,7 +15,7 @@ namespace Getting_Real
             Console.WriteLine("Opret Ordre");
             Console.WriteLine("");
 
-            Console.Write("1. Vare : ");
+            //Console.Write("1. Vare : ");
             Vare vare = new Vare();
             vare.ShowVare();
 
