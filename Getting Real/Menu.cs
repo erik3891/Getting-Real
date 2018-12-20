@@ -27,7 +27,7 @@ namespace Getting_Real
                             break;
                         case "2":
                             Customer kunder = new Customer();
-                            kunder.Showkunde();
+                            kunder.ShowCustomer();
                             break;
                     //case "3":
                     //    ShowEmployee();
@@ -49,7 +49,7 @@ namespace Getting_Real
             Console.WriteLine();
             Console.WriteLine("1. Opret Ordre");
             Console.WriteLine("2. Kunde Liste");
-            Console.WriteLine("3. Medarbejder list");
+            Console.WriteLine("3. Medarbejder liste");
             Console.WriteLine("4. Opret STARK Konto");
             Console.WriteLine("");
             Console.WriteLine("0. Exit");
