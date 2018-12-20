@@ -23,6 +23,7 @@ namespace Getting_Real
         {
             Console.WriteLine("Indtast Kunde ID");
             string kundID = Console.ReadLine();
+            Console.Clear();
             return;
         }
     }            
