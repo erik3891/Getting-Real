@@ -26,8 +26,8 @@ namespace Getting_Real
             string input = Console.ReadLine();
             if (input == "1")
             {
-                Customer kunder = new Customer();
-                kunder.ShowCustomer();
+                Customer customer = new Customer();
+                customer.ShowCustomer();
                 Console.WriteLine("Indtast Kunde ID");
                 string customerID = Console.ReadLine();
 

@@ -22,12 +22,12 @@ namespace Getting_Real
                             running = false;
                             break;
                         case "1":
-                            Ordre ordre = new Ordre();
-                            ordre.ShowOrdre();
+                            Ordre order = new Ordre();
+                            order.ShowOrdre();
                             break;
                         case "2":
-                            Customer kunder = new Customer();
-                            kunder.ShowCustomer();
+                            Customer customer = new Customer();
+                            customer.ShowCustomer();
                             break;
                         case "3":
                             Employee employee = new Employee();
