@@ -15,8 +15,8 @@ namespace Getting_Real
             Console.WriteLine("Opret Ordre");
             Console.WriteLine("");
 
-            Vare vare = new Vare();   //instance til at gå ind i Classen Vare
-            vare.ShowVare();
+            Product product = new Product();   //instance til at gå ind i Classen Product
+            product.ShowProduct();
 
             Console.Write("2. Medarbejder : ");
             string Medarbejder = Console.ReadLine();
@@ -26,10 +26,10 @@ namespace Getting_Real
             string input = Console.ReadLine();
             if (input == "1")
             {
-                Kunde kunder = new Kunde();
-                kunder.Showkunde();
+                Customer kunder = new Customer();
+                kunder.ShowCustomer();
                 Console.WriteLine("Indtast Kunde ID");
-                string kundID = Console.ReadLine();
+                string customerID = Console.ReadLine();
 
             }
             else if (input =="2")

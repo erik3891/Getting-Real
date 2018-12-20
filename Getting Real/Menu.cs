@@ -26,16 +26,16 @@ namespace Getting_Real
                             ordre.ShowOrdre();
                             break;
                         case "2":
-                            Kunde kunder = new Kunde();
+                            Customer kunder = new Customer();
                             kunder.Showkunde();
-                            break;         
-                        //case "3":
-                        //    SaveMatch();
-                        //    break;
-                        //case "4":
-                        //    Creatacount();
-                        //    break;
-                        default:
+                            break;
+                    //case "3":
+                    //    ShowEmployee();
+                    //    break;
+                    //case "4":
+                    //    CreatAccount();
+                    //    break;
+                    default:
                             Console.WriteLine("Ugyldigt valg tryk Enter.");
                             Console.ReadLine();
                             Console.Clear();

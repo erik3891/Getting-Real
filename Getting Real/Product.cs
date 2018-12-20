@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Getting_Real
 {
-    public class Vare
+    public class Product
     {
-        public void ShowVare()
+        public void ShowProduct()
         {
             Console.Write("1. Vare : ");
             string additem = Console.ReadLine();

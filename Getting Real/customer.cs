@@ -8,14 +8,22 @@ using System.Data.SqlClient;
 
 namespace Getting_Real
 {
-    class Kunde
+    public class Customer
     {
         private static string connection = "Server=eal.local; Database=C_DB11_2018; User Id=C_STUDENT11; Password=C_OPENDB11";
-        public void Showkunde()
+        //using SqlConnection con = new SqlConnection(connection);
+        //try {
+
+        //}
+        //catch {
+
+        //}
+
+    public void ShowCustomer()
         {
             Console.WriteLine("Indtast Kunde ID");
             string kundID = Console.ReadLine();
             return;
         }
-    }
-}
+    }            
+}   
