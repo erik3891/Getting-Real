@@ -30,13 +30,13 @@ namespace Getting_Real
                             kunder.ShowCustomer();
                             break;
                         case "3":
-                        Employee employee = new Employee();
-                        employee.ShowEmployee();
-                        break;
+                            Employee employee = new Employee();
+                            employee.ShowEmployee();
+                            break;
                         case "4":
-                        CreateAccount createAccount = new CreateAccount();
-                        createAccount.CreatAccount();
-                        break;
+                            CreateAccount createAccount = new CreateAccount();
+                            createAccount.CreatAccount();
+                            break;
                     default:
                             Console.WriteLine("Ugyldigt valg tryk Enter.");
                             Console.ReadLine();
