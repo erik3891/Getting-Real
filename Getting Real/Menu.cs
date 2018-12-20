@@ -29,12 +29,14 @@ namespace Getting_Real
                             Customer kunder = new Customer();
                             kunder.ShowCustomer();
                             break;
-                    //case "3":
-                    //    ShowEmployee();
-                    //    break;
-                    //case "4":
-                    //    CreatAccount();
-                    //    break;
+                        case "3":
+                        Employee employee = new Employee();
+                        employee.ShowEmployee();
+                        break;
+                        case "4":
+                        CreateAccount createAccount = new CreateAccount();
+                        createAccount.CreatAccount();
+                        break;
                     default:
                             Console.WriteLine("Ugyldigt valg tryk Enter.");
                             Console.ReadLine();
